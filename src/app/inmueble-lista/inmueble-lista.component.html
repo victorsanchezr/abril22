@@ -1,0 +1,13 @@
+<ul class="lista-inmuebles">
+    <div class="inmueble-cabecera">Inmuebles disponibles</div>
+    @for (item of fotos; track item.id) {
+        <li class="inmueble-item" >
+            <a [routerLink]="['/inmuebleslista', item.id]">
+                <img [src]="item.imagen" class="inmueble-imagen" alt="Inmueble">
+              </a>
+            <div class="inmueble-descripcion">
+                <p>{{ descripcion[$index] }}</p>
+            </div>
+        </li>
+    }
+</ul>

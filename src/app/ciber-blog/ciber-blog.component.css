@@ -1,0 +1,48 @@
+li {
+    list-style-type: none;
+    margin: 2%;
+}
+body{
+    background-color: black;
+}
+
+.principal{
+
+    text-align: center;
+    color:green;
+
+    
+
+
+}
+button{
+    background-color: chartreuse;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.imagen1{
+    width: 100%;
+    height: 400px;
+}
+
+table {
+
+    width:100%;
+    color: greenyellow;
+}
+
+tr{
+    border:1px solid white;
+}
+
+
+h4{
+    color: white;
+}
+
+button:hover{
+    background-color: blue;
+    border: 4px solid green;
+}
